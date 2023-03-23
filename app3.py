@@ -12,7 +12,7 @@ from PIL import Image
 def welcome():
     return "Welcome All"
 
-
+@st.cache
 def predict_note_authentication(Store, Dept, IsHoliday, Temperature, Fuel_Price, Size, day, year,
        month, mean, std, skew, kurtosis, Type_A, Type_B, Type_C):
     
