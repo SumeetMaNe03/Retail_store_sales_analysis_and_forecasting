@@ -1,0 +1,9 @@
+numpy
+pandas
+pickleshare
+scikit-learn
+scipy
+sklearn
+streamlit
+matplotlib
+catboost==0.26.1
