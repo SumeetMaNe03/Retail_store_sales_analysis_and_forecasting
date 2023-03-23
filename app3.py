@@ -83,7 +83,7 @@ def predict_note_authentication(Store, Dept, IsHoliday, Temperature, Fuel_Price,
        month, mean, std, skew, kurtosis, Type_A, Type_B, Type_C]])
     print(prediction)
     return prediction
-
+@st.cache
 def main():
     st.title("weekly sales")
     html_temp = """
